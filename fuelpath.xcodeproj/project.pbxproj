@@ -30,7 +30,6 @@
 		B01CFFCB18AB5849001CF628 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B01CFFCA18AB5849001CF628 /* libstdc++.6.0.9.dylib */; };
 		B01CFFCD18AB5855001CF628 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01CFFCC18AB5855001CF628 /* Security.framework */; };
 		B01CFFCF18AB58A3001CF628 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01CFFCE18AB58A3001CF628 /* MAMapKit.framework */; };
-		B01CFFD118AB58D4001CF628 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B01CFFD018AB58D4001CF628 /* AMap.bundle */; };
 		B01CFFD418AB5CF3001CF628 /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B01CFFD318AB5CF3001CF628 /* OverlayViewController.m */; };
 		B01CFFD718AB5E7F001CF628 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B01CFFD618AB5E7F001CF628 /* MainViewController.m */; };
 		B01CFFDF18AB709B001CF628 /* CSqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = B01CFFDA18AB709B001CF628 /* CSqlite.m */; };
@@ -40,6 +39,22 @@
 		B01CFFE618AB776C001CF628 /* CLLocation+Sino.m in Sources */ = {isa = PBXBuildFile; fileRef = B01CFFE518AB776C001CF628 /* CLLocation+Sino.m */; };
 		B01CFFE918ABB133001CF628 /* WGS84ToGCJ02.m in Sources */ = {isa = PBXBuildFile; fileRef = B01CFFE818ABB133001CF628 /* WGS84ToGCJ02.m */; };
 		B01CFFEB18ABB996001CF628 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01CFFEA18ABB996001CF628 /* AVFoundation.framework */; };
+		B07747DE18C23111009B7E04 /* Activity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B07747DC18C23111009B7E04 /* Activity.xcdatamodeld */; };
+		B07747ED18C2346A009B7E04 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B07747EB18C2346A009B7E04 /* TestViewController.m */; };
+		B07747EE18C2346A009B7E04 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B07747EC18C2346A009B7E04 /* TestViewController.xib */; };
+		B07747F218C234F3009B7E04 /* PathGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B07747F118C234F3009B7E04 /* PathGenerator.m */; };
+		B07747F518C239A4009B7E04 /* RunningActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = B07747F418C239A4009B7E04 /* RunningActivity.m */; };
+		B077480D18C23BDF009B7E04 /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B077480C18C23BDF009B7E04 /* DataStore.m */; };
+		B077482218C24D87009B7E04 /* RoutePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = B077482118C24D87009B7E04 /* RoutePoint.m */; };
+		B077482818C252F0009B7E04 /* Route+WithRoutePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = B077482718C252F0009B7E04 /* Route+WithRoutePoint.m */; };
+		B077482B18C2DAB4009B7E04 /* Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = B077482A18C2DAB4009B7E04 /* Activity.m */; };
+		B077482E18C2DAB5009B7E04 /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = B077482D18C2DAB5009B7E04 /* Route.m */; };
+		B077483118C2DAB5009B7E04 /* ActivityPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = B077483018C2DAB5009B7E04 /* ActivityPhoto.m */; };
+		B077483518C2E9D5009B7E04 /* TestNewActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B077483318C2E9D5009B7E04 /* TestNewActivityViewController.m */; };
+		B077483618C2E9D5009B7E04 /* TestNewActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B077483418C2E9D5009B7E04 /* TestNewActivityViewController.xib */; };
+		B077483A18C307F6009B7E04 /* TestMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B077483818C307F6009B7E04 /* TestMapViewController.m */; };
+		B077483B18C307F6009B7E04 /* TestMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B077483918C307F6009B7E04 /* TestMapViewController.xib */; };
+		B077483D18C342A0009B7E04 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B077483C18C342A0009B7E04 /* MapKit.framework */; };
 		B0EB6F2F18ADE5CB0021DA8D /* PathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EB6F2E18ADE5CB0021DA8D /* PathViewController.m */; };
 		B0EB6F3218ADE7580021DA8D /* EmptyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EB6F3118ADE7580021DA8D /* EmptyViewController.m */; };
 		B0EB6F3A18ADFD460021DA8D /* beijing.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B0EB6F3918ADFD450021DA8D /* beijing.gpx */; };
@@ -84,7 +99,6 @@
 		B01CFFCA18AB5849001CF628 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
 		B01CFFCC18AB5855001CF628 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		B01CFFCE18AB58A3001CF628 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MAMapKit.framework; path = ../../../Downloads/AMap_iOS_API_Lib_V2.1.3/3D/MAMapKit.framework; sourceTree = "<group>"; };
-		B01CFFD018AB58D4001CF628 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = ../AMap.bundle; sourceTree = "<group>"; };
 		B01CFFD218AB5CF3001CF628 /* OverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayViewController.h; sourceTree = "<group>"; };
 		B01CFFD318AB5CF3001CF628 /* OverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayViewController.m; sourceTree = "<group>"; };
 		B01CFFD518AB5E7F001CF628 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -101,6 +115,33 @@
 		B01CFFE718ABB133001CF628 /* WGS84ToGCJ02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGS84ToGCJ02.h; sourceTree = "<group>"; };
 		B01CFFE818ABB133001CF628 /* WGS84ToGCJ02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGS84ToGCJ02.m; sourceTree = "<group>"; };
 		B01CFFEA18ABB996001CF628 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B07747DD18C23111009B7E04 /* Activity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Activity.xcdatamodel; sourceTree = "<group>"; };
+		B07747EA18C2346A009B7E04 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		B07747EB18C2346A009B7E04 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		B07747EC18C2346A009B7E04 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		B07747F018C234F3009B7E04 /* PathGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathGenerator.h; sourceTree = "<group>"; };
+		B07747F118C234F3009B7E04 /* PathGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathGenerator.m; sourceTree = "<group>"; };
+		B07747F318C239A4009B7E04 /* RunningActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunningActivity.h; sourceTree = "<group>"; };
+		B07747F418C239A4009B7E04 /* RunningActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunningActivity.m; sourceTree = "<group>"; };
+		B077480B18C23BDF009B7E04 /* DataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStore.h; sourceTree = "<group>"; };
+		B077480C18C23BDF009B7E04 /* DataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStore.m; sourceTree = "<group>"; };
+		B077482018C24D87009B7E04 /* RoutePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoutePoint.h; sourceTree = "<group>"; };
+		B077482118C24D87009B7E04 /* RoutePoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoutePoint.m; sourceTree = "<group>"; };
+		B077482618C252F0009B7E04 /* Route+WithRoutePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Route+WithRoutePoint.h"; sourceTree = "<group>"; };
+		B077482718C252F0009B7E04 /* Route+WithRoutePoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Route+WithRoutePoint.m"; sourceTree = "<group>"; };
+		B077482918C2DAB4009B7E04 /* Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Activity.h; sourceTree = "<group>"; };
+		B077482A18C2DAB4009B7E04 /* Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Activity.m; sourceTree = "<group>"; };
+		B077482C18C2DAB5009B7E04 /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+		B077482D18C2DAB5009B7E04 /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
+		B077482F18C2DAB5009B7E04 /* ActivityPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityPhoto.h; sourceTree = "<group>"; };
+		B077483018C2DAB5009B7E04 /* ActivityPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityPhoto.m; sourceTree = "<group>"; };
+		B077483218C2E9D5009B7E04 /* TestNewActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNewActivityViewController.h; sourceTree = "<group>"; };
+		B077483318C2E9D5009B7E04 /* TestNewActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNewActivityViewController.m; sourceTree = "<group>"; };
+		B077483418C2E9D5009B7E04 /* TestNewActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestNewActivityViewController.xib; sourceTree = "<group>"; };
+		B077483718C307F6009B7E04 /* TestMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestMapViewController.h; sourceTree = "<group>"; };
+		B077483818C307F6009B7E04 /* TestMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestMapViewController.m; sourceTree = "<group>"; };
+		B077483918C307F6009B7E04 /* TestMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestMapViewController.xib; sourceTree = "<group>"; };
+		B077483C18C342A0009B7E04 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		B0EB6F2D18ADE5CB0021DA8D /* PathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathViewController.h; sourceTree = "<group>"; };
 		B0EB6F2E18ADE5CB0021DA8D /* PathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathViewController.m; sourceTree = "<group>"; };
 		B0EB6F3018ADE7580021DA8D /* EmptyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyViewController.h; sourceTree = "<group>"; };
@@ -113,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B077483D18C342A0009B7E04 /* MapKit.framework in Frameworks */,
 				B01CFFEB18ABB996001CF628 /* AVFoundation.framework in Frameworks */,
 				B01CFFCD18AB5855001CF628 /* Security.framework in Frameworks */,
 				B01CFFCB18AB5849001CF628 /* libstdc++.6.0.9.dylib in Frameworks */,
@@ -165,6 +207,7 @@
 		B01CFF8618AB5774001CF628 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B077483C18C342A0009B7E04 /* MapKit.framework */,
 				B01CFFEA18ABB996001CF628 /* AVFoundation.framework */,
 				B01CFFCE18AB58A3001CF628 /* MAMapKit.framework */,
 				B01CFFCC18AB5855001CF628 /* Security.framework */,
@@ -186,6 +229,9 @@
 		B01CFF8D18AB5774001CF628 /* fuelpath */ = {
 			isa = PBXGroup;
 			children = (
+				B07747EF18C234DB009B7E04 /* TestUtils */,
+				B07747E918C23445009B7E04 /* Controller */,
+				B07747E818C233A0009B7E04 /* Model */,
 				B01CFFD818AB709B001CF628 /* Sqlite */,
 				B01CFFD518AB5E7F001CF628 /* MainViewController.h */,
 				B01CFFD618AB5E7F001CF628 /* MainViewController.m */,
@@ -213,7 +259,6 @@
 		B01CFF8E18AB5774001CF628 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B01CFFD018AB58D4001CF628 /* AMap.bundle */,
 				B01CFFE218AB7490001CF628 /* gps.db */,
 				B01CFF8F18AB5774001CF628 /* fuelpath-Info.plist */,
 				B01CFF9018AB5774001CF628 /* InfoPlist.strings */,
@@ -252,6 +297,53 @@
 				B01CFFDE18AB709B001CF628 /* sqlite3ext.h */,
 			);
 			path = Sqlite;
+			sourceTree = "<group>";
+		};
+		B07747E818C233A0009B7E04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B07747DC18C23111009B7E04 /* Activity.xcdatamodeld */,
+				B077482F18C2DAB5009B7E04 /* ActivityPhoto.h */,
+				B077483018C2DAB5009B7E04 /* ActivityPhoto.m */,
+				B077482C18C2DAB5009B7E04 /* Route.h */,
+				B077482D18C2DAB5009B7E04 /* Route.m */,
+				B077482918C2DAB4009B7E04 /* Activity.h */,
+				B077482A18C2DAB4009B7E04 /* Activity.m */,
+				B077480B18C23BDF009B7E04 /* DataStore.h */,
+				B077480C18C23BDF009B7E04 /* DataStore.m */,
+				B077482018C24D87009B7E04 /* RoutePoint.h */,
+				B077482118C24D87009B7E04 /* RoutePoint.m */,
+				B077482618C252F0009B7E04 /* Route+WithRoutePoint.h */,
+				B077482718C252F0009B7E04 /* Route+WithRoutePoint.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B07747E918C23445009B7E04 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B07747EF18C234DB009B7E04 /* TestUtils */ = {
+			isa = PBXGroup;
+			children = (
+				B07747EA18C2346A009B7E04 /* TestViewController.h */,
+				B07747EB18C2346A009B7E04 /* TestViewController.m */,
+				B07747EC18C2346A009B7E04 /* TestViewController.xib */,
+				B07747F018C234F3009B7E04 /* PathGenerator.h */,
+				B07747F118C234F3009B7E04 /* PathGenerator.m */,
+				B07747F318C239A4009B7E04 /* RunningActivity.h */,
+				B07747F418C239A4009B7E04 /* RunningActivity.m */,
+				B077483218C2E9D5009B7E04 /* TestNewActivityViewController.h */,
+				B077483318C2E9D5009B7E04 /* TestNewActivityViewController.m */,
+				B077483418C2E9D5009B7E04 /* TestNewActivityViewController.xib */,
+				B077483718C307F6009B7E04 /* TestMapViewController.h */,
+				B077483818C307F6009B7E04 /* TestMapViewController.m */,
+				B077483918C307F6009B7E04 /* TestMapViewController.xib */,
+			);
+			name = TestUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,9 +425,11 @@
 				B01CFFE318AB7490001CF628 /* gps.db in Resources */,
 				B01CFFA018AB5774001CF628 /* Images.xcassets in Resources */,
 				B01CFF9218AB5774001CF628 /* InfoPlist.strings in Resources */,
-				B01CFFD118AB58D4001CF628 /* AMap.bundle in Resources */,
+				B077483B18C307F6009B7E04 /* TestMapViewController.xib in Resources */,
 				B0EB6F3A18ADFD460021DA8D /* beijing.gpx in Resources */,
+				B07747EE18C2346A009B7E04 /* TestViewController.xib in Resources */,
 				B01CFF9B18AB5774001CF628 /* Main.storyboard in Resources */,
+				B077483618C2E9D5009B7E04 /* TestNewActivityViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,16 +448,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B07747F218C234F3009B7E04 /* PathGenerator.m in Sources */,
+				B077483118C2DAB5009B7E04 /* ActivityPhoto.m in Sources */,
+				B077482218C24D87009B7E04 /* RoutePoint.m in Sources */,
+				B077483A18C307F6009B7E04 /* TestMapViewController.m in Sources */,
+				B077483518C2E9D5009B7E04 /* TestNewActivityViewController.m in Sources */,
 				B0EB6F2F18ADE5CB0021DA8D /* PathViewController.m in Sources */,
 				B01CFFE618AB776C001CF628 /* CLLocation+Sino.m in Sources */,
+				B077482B18C2DAB4009B7E04 /* Activity.m in Sources */,
 				B01CFFE918ABB133001CF628 /* WGS84ToGCJ02.m in Sources */,
+				B077480D18C23BDF009B7E04 /* DataStore.m in Sources */,
+				B07747DE18C23111009B7E04 /* Activity.xcdatamodeld in Sources */,
 				B01CFF9E18AB5774001CF628 /* BaseMapViewController.m in Sources */,
 				B01CFF9818AB5774001CF628 /* AppDelegate.m in Sources */,
 				B01CFF9418AB5774001CF628 /* main.m in Sources */,
+				B07747F518C239A4009B7E04 /* RunningActivity.m in Sources */,
 				B01CFFE018AB709B001CF628 /* shell.c in Sources */,
 				B01CFFD718AB5E7F001CF628 /* MainViewController.m in Sources */,
+				B077482E18C2DAB5009B7E04 /* Route.m in Sources */,
 				B01CFFD418AB5CF3001CF628 /* OverlayViewController.m in Sources */,
 				B01CFFDF18AB709B001CF628 /* CSqlite.m in Sources */,
+				B077482818C252F0009B7E04 /* Route+WithRoutePoint.m in Sources */,
+				B07747ED18C2346A009B7E04 /* TestViewController.m in Sources */,
 				B0EB6F3218ADE7580021DA8D /* EmptyViewController.m in Sources */,
 				B01CFFE118AB709B001CF628 /* sqlite3.c in Sources */,
 			);
@@ -598,6 +704,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B07747DC18C23111009B7E04 /* Activity.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B07747DD18C23111009B7E04 /* Activity.xcdatamodel */,
+			);
+			currentVersion = B07747DD18C23111009B7E04 /* Activity.xcdatamodel */;
+			path = Activity.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B01CFF7C18AB5774001CF628 /* Project object */;
 }

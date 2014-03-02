@@ -101,7 +101,7 @@
 //    if (self.path != nil) {
 //        [self.mapView removeOverlay:self.path];
 //    }
-    MAMapPoint *pt = [MAMapPoint alloc] 
+    //MAMapPoint *pt = [MAMapPoint alloc]
     self.path = [MAPolyline polylineWithCoordinates:coordinates count:len];
     //[self.mapView addOverlay:self.path];
 }

@@ -7,10 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "MainViewController.h"
-#import "PathViewController.h"
-#import "EmptyViewController.h"
-#import "OverlayViewController.h"
+#import "TestViewController.h"
 #import <AVFoundation/AVFoundation.h>
 
 @implementation AppDelegate
@@ -28,13 +25,19 @@
    // UIViewController *mainViewController = [[EmptyViewController alloc] init];
 //    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
     
-    self.window.rootViewController = [[PathViewController alloc] init];
+    self.dataStore = [[DataStore alloc] init];
+    
+    TestViewController *testViewController = [[TestViewController alloc] initWithNibName:NSStringFromClass([TestViewController class]) bundle:nil];
+    
+    testViewController.dataStore = self.dataStore;
+    
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController: testViewController];
 //    self.window.rootViewController = [[OverlayViewController alloc] init];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    [self startRecording];
+   // [self startRecording];
     
     return YES;
 
